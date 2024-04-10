@@ -9,7 +9,6 @@ const Home = () => {
             <Banner/>
             <AboutUs/>
             <Location/>
-            <section className="resto"></section>
         </section>
     )
 }

@@ -1,0 +1,13 @@
+.footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer span{
+    font-size: 18px
+}
