@@ -1,0 +1,17 @@
+.location{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location__img{
+    height: auto;
+    width: 95%;
+}
+
+.location__content{
+    margin-top: 20px;
+    width: 90%;
+}
