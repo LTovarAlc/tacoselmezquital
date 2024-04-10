@@ -1,5 +1,5 @@
 .banner{
-    height: 30vh;
+    height: 50vh;
     background: url(../../../../public/img/bg-barbacoa.jpg) center/cover no-repeat;
     font-family: 'Roboto', sans-serif;
 }
@@ -17,7 +17,7 @@
 .banner__content h1{
     color: #fff;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     width: 100%;
 }
@@ -27,7 +27,7 @@
     width: 80%;
     text-align: center;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .banner__text{
