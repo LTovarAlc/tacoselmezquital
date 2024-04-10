@@ -10,7 +10,7 @@ const Banner = () => {
                     <h1>Tacos <br /> El Mezquital</h1>
                     <p>Te invita a disfrutar de deliciosos tacos de barbacoa y carne asada</p>
                 </div>
-                <Link to={"/#Sucursales"}><ButtonBanner/></Link>
+                <a href="#Sucursales"><ButtonBanner/></a>
             </div>
         </section>
     )
