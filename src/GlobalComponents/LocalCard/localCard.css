@@ -8,12 +8,12 @@
 .local__info{
     display: flex;
     align-items: center;
-    width: 75%;
-    justify-content: space-evenly;
+    width: 80%;
+    justify-content: space-between;
 }
 
 .info__local-icon{
-    height: 40px;
+    height: 30px;
 }
 
 .localCard{
@@ -39,10 +39,18 @@
     width: 95%;
 }
 
-.localCard span{
-    width: 80%;
+.local__info-container span{
     text-align: left;
     font-size: 20px;
     font-weight: 400;
-    margin-left: 20px;
+    width: 80%;
+}
+
+.local__info-container{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
