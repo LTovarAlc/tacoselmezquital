@@ -12,7 +12,7 @@ const HeaderMobile = () => {
   return (
     <header className="headerMobile">
       <img
-        src="../../../img/tacoselmezquital.png"
+        src="../../../img/tacosLogo.png"
         alt="Tacos El Mezquital"
         className="logo__headerMobile"
       />
@@ -33,7 +33,7 @@ const HeaderMobile = () => {
         </ul>
         <button className="navBar__mobile-btn" onClick={handleMenuClick}>
           <img
-            src="../../../../img/flechaAbajo.png"
+            src="../../../../img/flechaAbajo.png" alt="arrow"
             className={`menu__btn-img ${isMenuOpen ? "rotate" : ""}`}
           />
         </button>
