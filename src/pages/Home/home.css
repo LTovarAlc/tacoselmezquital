@@ -1,3 +1,10 @@
-.resto{
-    height: 50vh;
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: url(../../../public/img/bg.png) center;
+    overflow: hidden;
+    overflow-y: auto;
 }
