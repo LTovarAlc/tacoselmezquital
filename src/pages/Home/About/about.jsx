@@ -1,4 +1,6 @@
 import "./about.css";
+import tacosCA from "./aboutimg/tacoCA.png"
+import tacosBarbacoa from "./aboutimg/tacosbarbacoa.png"
 
 const AboutUs = () => {
   return (
@@ -13,19 +15,15 @@ const AboutUs = () => {
           <span className="greeting">¡Bienvenidos a Tacos El Mezquital!</span>
           <br /> <br />
           Nos emociona compartir contigo nuestro sabor único y autentico a
-          través de nuestros delicisos tacos de barbacoa y cerne asada. Estamos
+          través de nuestros delicisos tacos de barbacoa y carne asada. Estamos
           comprometidos a ofrecerte una experiencia excepcional, donde la
           calidad y el sabor se unen para crear momentos inolvidables. 
           <br /> <br />
           <span className="greeting">¡Ven y descubre por ti mismo el gran sabor de nuestros tacos!</span>
         </p>
-        {/* <ol className="list">
-                    <li className="list__item"></li>
-                    <li className="list__item"></li>
-                    <li className="list__item"></li>
-                    <li className="list__item"></li>
-                </ol> */}
       </div>
+      <img src={tacosCA} alt="tacos Carn Asada" className="about-element__tacosCA"/>
+      <img src={tacosBarbacoa} alt="tacos Carn Asada" className="about-element__tacosB"/> 
     </section>
   );
 };

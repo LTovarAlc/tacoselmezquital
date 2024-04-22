@@ -7,7 +7,11 @@ const Banner = () => {
         <section className="banner">
             <div className="banner__content">
                 <div className="banner__text">
-                    <h1>Tacos <br /> El Mezquital</h1>
+                    <div className="banner-logo">
+                        <h1>Tacos</h1>
+                        <img src="../../../img/cowbow.png" alt="" className="banner-logo__img" />
+                        <h1>El Mezquital</h1>
+                    </div>
                     <p>Te invita a disfrutar de deliciosos tacos de barbacoa y carne asada</p>
                 </div>
                 <a href="#Sucursales"><ButtonBanner/></a>
