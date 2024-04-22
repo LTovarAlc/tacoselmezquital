@@ -21,21 +21,16 @@ const HeaderMobile = () => {
           <li className="menuMobile__list-items">
             <Link to={"/"}>Inicio</Link>
           </li>
-          <li className="menuMobile__list-items">
-            <Link to={"/error"}>Sucursales</Link>
-          </li>
-          <li className="menuMobile__list-items">
-            <Link to={"/error"}>Contactos</Link>
-          </li>
-          <li className="menuMobile__list-items">
-            <Link to={"/error"}>Nosotros</Link>
-          </li>
+          <li className="menuMobile__list-item"><a className="menuMobile-links" href="#nosotros">Nosotros</a></li>
+          <li className="menuMobile__list-item"><a  className="menuMobile-links"href="#menu">Menú</a></li>
+          <li className="menuMobile__list-item"><a  className="menuMobile-links"href="#Sucursales">Sucursales</a></li>
+          <li className="menuMobile__list-item"><a className="menuMobile-links" href="#contact">Contactos</a></li>
         </ul>
         <button className="navBar__mobile-btn" onClick={handleMenuClick}>
           <img
             src="../../../../img/flechaAbajo.png" alt="arrow"
             className={`menu__btn-img ${isMenuOpen ? "rotate" : ""}`}
-          />
+          /> 
         </button>
       </nav>
     </header>
