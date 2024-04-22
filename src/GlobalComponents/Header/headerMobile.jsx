@@ -30,6 +30,9 @@ const HeaderMobile = () => {
           <li className="menuMobile__list-items">
             <Link to={"/error"}>Nosotros</Link>
           </li>
+          <li className="menuMobile__list-items">
+            <Link to={"/menu"}>Menú</Link>
+          </li>
         </ul>
         <button className="navBar__mobile-btn" onClick={handleMenuClick}>
           <img
