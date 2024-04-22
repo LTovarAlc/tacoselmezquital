@@ -9,9 +9,9 @@ const LocalCard = () => {
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d898.3574809476444!2d-100.2486025997081!3d25.75635942579072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1712775515706!5m2!1ses!2smx"
         width="600"
         height="450"
-        allowfullscreen=""
+        allowFullScreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
       <div className="local__info-container">
         <div className="local__info">

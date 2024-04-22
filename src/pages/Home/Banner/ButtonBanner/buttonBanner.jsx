@@ -3,9 +3,9 @@ import "./buttonBanner.css";
 const ButtonBanner = () => {
   return (
     <button>
-      <span class="shadow"></span>
-      <span class="edge"></span>
-      <span class="front text"> Sucursales</span>
+      <span className="shadow"></span>
+      <span className="edge"></span>
+      <span className="front text"> Sucursales</span>
     </button>
   );
 };
