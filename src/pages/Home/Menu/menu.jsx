@@ -12,7 +12,7 @@ const Menu = () => {
           />
           <div className="menu-header__text">
             <h2 className="menu-title__name">
-              Tacos <br /> El Mezquital 2
+              Tacos <br /> El Mezquital
             </h2>
             <h1 className="menu-title">Menú</h1>
           </div>
