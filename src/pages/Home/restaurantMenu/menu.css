@@ -1,7 +1,7 @@
 .menu{
     background: url(../../../../public/img/backgroundMENU.jpg) center/cover no-repeat;
     font-family: "Rye", sans-serif;
-    height: 120vh;
+    height: 130vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
     flex-direction: column;  
     justify-content: space-evenly;
     height: 95%;
-    width: 90%;
+    width: 95%;
 }
 
 .menu-header{
