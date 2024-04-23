@@ -92,4 +92,7 @@
         font-size: 22px;
         font-weight: 500;
     }
+    .about-element__tacosB, .about-element__tacosCA{
+        display: none;
+    }
 }
