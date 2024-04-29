@@ -60,10 +60,10 @@ const RestaurantMenu = () => {
             </div>
             <div className="specials">
                 <h3>Por kilo</h3>
-                <p className="drink-name">Barbacoa (1kg) <span>$90.00</span></p>
-                <p className="drink-name">Barbacoa (1/2kg) <span>$90.00</span></p>
-                <p className="drink-name">Carne Asada (1kg) <span>$90.00</span></p>
-                <p className="drink-name">Carne Asada (1/2kg) <span>$90.00</span></p>
+                <p className="drink-name">Barbacoa (1kg) <span>$390.00</span></p>
+                <p className="drink-name">Barbacoa (1/2kg) <span>$195.00</span></p>
+                <p className="drink-name">Carne Asada (1kg) <span>$350.00</span></p>
+                <p className="drink-name">Carne Asada (1/2kg) <span>$210.00</span></p>
                 <p className="asada-notice">*La carne asada se pesa en crudo y se vende picada*</p>
             </div>
         </div>
