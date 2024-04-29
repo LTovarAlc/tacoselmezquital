@@ -141,3 +141,19 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 430px) and (max-width: 1024px){
+    .about-element__tacosB{
+        height: 100px;
+        left: 90%;
+        top: 40%;
+    }
+    .about-element__torta{
+        height: 200px;
+        left: 10%;
+        top: 70%;
+    }
+    .about{
+        width: 100%;
+    }
+}

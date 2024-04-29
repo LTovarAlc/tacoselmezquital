@@ -5,7 +5,7 @@ import whatsapp from "./footerimg/whatsapp.png";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer-logo__container">
         <img
           src="../../../img/tacosLogo.png"

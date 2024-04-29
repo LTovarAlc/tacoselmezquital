@@ -55,3 +55,31 @@
     margin-left: 20px;
     font-size: 20px;
 }
+
+@media screen and (max-width: 430px){
+    .footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .socials-container{
+        height: 60%;
+        width: 100%;
+    }
+    .logo__footer{
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 1024px){
+    .footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .socials-container{
+        height: 60%;
+        width: 100%;
+    }
+    .logo__footer{
+        height: 200px;
+    }
+}

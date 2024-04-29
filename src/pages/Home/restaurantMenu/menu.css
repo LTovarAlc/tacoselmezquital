@@ -340,3 +340,12 @@
         text-align: center;
     }
 }
+
+@media screen and (min-width: 430px) and (max-width: 1024px){
+    .menu-container{
+        width: 100%;
+    }
+    .dishes{
+        width: 80%;
+    }
+}

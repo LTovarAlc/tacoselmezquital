@@ -97,3 +97,9 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 430px) and (max-width: 1024px){
+    .banner{
+        height: 60vh;
+    }
+}
