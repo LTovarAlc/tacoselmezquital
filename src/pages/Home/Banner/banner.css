@@ -2,6 +2,7 @@
     background: url(../../../../public/img/bg-barbacoa.jpg) center/cover no-repeat;
     font-family: 'Roboto', sans-serif;
     width: 100%;
+    height: 80vh;
 }
 
 .banner-logo{
@@ -44,11 +45,11 @@
 
 .banner__text{
     width: 100%;
-    height: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 430px){

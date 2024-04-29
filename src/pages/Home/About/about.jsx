@@ -1,6 +1,7 @@
 import "./about.css";
 import tacosCA from "./aboutimg/tacoCA.png"
 import tacosBarbacoa from "./aboutimg/tacosbarbacoa.png"
+import torta from "./aboutimg/torta.png"
 
 const AboutUs = () => {
   return (
@@ -24,6 +25,7 @@ const AboutUs = () => {
       </div>
       <img src={tacosCA} alt="tacos Carn Asada" className="about-element__tacosCA"/>
       <img src={tacosBarbacoa} alt="tacos Carn Asada" className="about-element__tacosB"/> 
+      <img src={torta} alt="tacos Carn Asada" className="about-element__torta"/> 
     </section>
   );
 };
