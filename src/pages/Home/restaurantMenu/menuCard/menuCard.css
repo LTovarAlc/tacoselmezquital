@@ -1,0 +1,38 @@
+.cardMenu{
+    width: 500px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); 
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardMenu h2{
+    font-size: 38px;
+}
+
+.cardDishes__container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dish-detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    display: flex;
+}
+
+.dish-descript{
+    width: 80%;
+    list-style: disc;
+}
